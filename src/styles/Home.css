@@ -1,0 +1,56 @@
+main {
+  width: 1082.56px;
+  height: 396.2px;
+  top: 158px;
+  left: 170px;
+  gap: 0px;
+  opacity: 0px;
+}
+.component1 {
+  width: 418.56px;
+  height: 396.2px;
+  top: 150px;
+  left: 834px;
+  gap: 0px;
+  opacity: 0px;
+}
+.div-home {
+  width: 535px;
+  height: 369px;
+  top: 174px;
+  left: 170px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.p-home {
+  font-family: Signika Negative;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.57px;
+  text-align: left;
+  width: 535px;
+  height: 153px;
+  top: 319px;
+  left: 170px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.h2-home {
+
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 61.6px;
+  text-align: left;
+}
+span {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61.6px;
+  text-align: left;
+  color: #974fd0;
+}

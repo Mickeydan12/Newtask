@@ -1,0 +1,95 @@
+.New-Task {
+  position: relative;
+}
+.New-Task-des {
+  position: relative;
+}
+.task {
+  border: none;
+  border: 2px solid #b8b6b6;
+  border-radius: 5px;
+  height: 5rem;
+  background-color: #faf9fb;
+  font-size: 22px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  outline: none;
+}
+.task-drop{
+  border: none;
+  border: 2px solid #b8b6b6;
+  border-radius: 5px;
+  height: 5rem;
+  background-color: #faf9fb;
+  font-size: 22px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  outline: none;
+}
+.task-drop:hover{
+  border: 2px solid #b8b6b6;
+  outline: none;
+}
+.input{
+  border: none;
+  border: 2px solid #b8b6b6;
+  border-radius: 5px;
+  height: 224px;
+  background-color: #faf9fb;
+  font-size: 22px;
+  padding-left: 3rem;
+  padding-top: 25px;
+  padding-right: 3rem;
+  padding-bottom: 10rem;
+  outline: none;
+}
+::placeholder {
+  color: #cccccc;
+}
+.task-lab{
+  position: absolute;
+  left: 3rem;
+  bottom: 3.5rem;
+  font-size: 30px;
+  background-color: #faf9fb;
+  color: #9c9c9c;
+  z-index: 1;
+}
+.des-lab {
+  position: absolute;
+  left: 3rem;
+  bottom: 13rem;
+  font-size: 30px;
+  background-color: #faf9fb;
+  color: #9c9c9c;
+}
+.btn-newtask{
+    background-color: #974fd0;
+    border: none;
+    color: #faf9fb;
+    border-radius: 8px;
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+}
+.p-dropdown{
+  background-color: black;
+  padding: 2px 5px;
+  margin-top: 9px;
+  color: #9c9c9c;
+  font-size: 17px;
+}
+@media(max-width: 1114px){
+    ::placeholder{
+        font-size: 19px;
+    }
+    .input{
+        font-size: 19px;
+    }
+    .task{
+        font-size: 19px;
+    }
+    .arrow{
+        width: 30px;
+    }
+}
