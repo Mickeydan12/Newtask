@@ -13,7 +13,6 @@ const Tasks = () => {
         <Link to={"/newtask"} className="text-decoration-none">
           <p className=" text-end">
             <img src={add} alt="" className="pe-2 mb-1" />
-          
           </p>
         </Link>
       </div>
@@ -23,15 +22,13 @@ const Tasks = () => {
           <p className="p-taks-urgent">Urgent</p>
           <div className="d-flex gap-3">
             <Link to={"/edit"}>
-              <button className="btn-task">
+            
                 <img src={edit} alt="" className="img-task me-2" />
-                Edit
-              </button>
+              
             </Link>
-            <button className="btn-task-del">
+           
               <img src={del} alt="" className="img-task me-2" />
-              Delete
-            </button>
+            
           </div>
         </div>
         <hr />
@@ -49,15 +46,13 @@ const Tasks = () => {
           <p className="p-taks-Important">Important</p>
           <div className="d-flex gap-3">
             <Link to={"/edit"}>
-              <button className="btn-task">
+              
                 <img src={edit} alt="" className="img-task me-2" />
-                Edit
-              </button>
+              
             </Link>
-            <button className="btn-task-del">
+            
               <img src={del} alt="" className="img-task me-2" />
-              Delete
-            </button>
+            
           </div>
         </div>
         <hr />
@@ -75,15 +70,13 @@ const Tasks = () => {
           <p className="p-taks-urgent">Urgent</p>
           <div className="d-flex gap-3">
             <Link to={"/edit"}>
-              <button className="btn-task">
+              
                 <img src={edit} alt="" className="img-task me-2" />
-                Edit
-              </button>
+              
             </Link>
-            <button className="btn-task-del">
+          
               <img src={del} alt="" className="img-task me-2" />
-              Delete
-            </button>
+           
           </div>
         </div>
         <hr />
@@ -101,15 +94,13 @@ const Tasks = () => {
           <p className="p-taks-Important">Important</p>
           <div className="d-flex gap-3">
             <Link to={"/edit"}>
-              <button className="btn-task">
+          
                 <img src={edit} alt="" className="img-task me-2" />
-                Edit
-              </button>
+             
             </Link>
-            <button className="btn-task-del">
+            
               <img src={del} alt="" className="img-task me-2" />
-              Delete
-            </button>
+           
           </div>
         </div>
         <hr />

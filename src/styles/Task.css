@@ -29,18 +29,9 @@ p {
   border: none;
   border-radius: 8px;
 }
-.btn-task-del {
-  width: 126px;
-  height: 50px;
-  font-size: 20px;
-  background-color: #faf9fb;
-  color: #974fd0;
-  border: none;
-  border-radius: 8px;
-  border: 2px solid #974fd0;
-}
+
 .img-task {
-  width: 20px;
+  width: 120px;
   padding-bottom: 5px;
 }
 .back-to-top {
@@ -59,11 +50,7 @@ p {
     height: 40px;
     font-size: 13px;
   }
-  .btn-task-del {
-    width: 80px;
-    height: 40px;
-    font-size: 13px;
-  }
+
   .img-task {
     width: 15px;
   }
